@@ -1,0 +1,23 @@
+<Application x:Class="Wix.CommunityToolKit.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:Wix.CommunityToolKit.Converters"
+             StartupUri="Views/MainView.xaml">
+	
+    <Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="pack://application:,,,/MLib;component/Themes/DarkTheme.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wix.CommunityToolKit;component/Themes/DarkBrushsExtended.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wix.CommunityToolKit;component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Wix.CommunityToolKit;component/Themes/Controls/VsResizeGrip.xaml" />
+
+				<ResourceDictionary>
+					<BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+					<BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+					<converters:ActiveDocumentConverter x:Key="ActiveDocumentConverter" />
+				</ResourceDictionary>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
