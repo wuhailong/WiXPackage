@@ -3,13 +3,12 @@
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
 		<!--版本-->
-		<PackageVersion>1.0.1</PackageVersion>
+		<PackageVersion>1.0.2</PackageVersion>
 		<!--包名-->
 		<PackageId>Wix.CommunityToolKit</PackageId>
 		<Title>Wix CommunityToolKit</Title>
 		<!--作者-->
 		<Authors>wuhailong</Authors>
-		<Description>Templates to use when creating an application for wix installer.</Description>
 		<PackageTags>dotnet-new;templates;contoso</PackageTags>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<IncludeContentInPack>true</IncludeContentInPack>
