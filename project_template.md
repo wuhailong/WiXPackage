@@ -1,0 +1,1 @@
+https://docs.microsoft.com/zh-cn/visualstudio/extensibility/creating-custom-project-and-item-templates?view=vs-2022

@@ -3,10 +3,10 @@
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
 		<!--版本-->
-		<PackageVersion>1.0.2</PackageVersion>
+		<PackageVersion>1.0.5</PackageVersion>
 		<!--包名-->
-		<PackageId>Wix.CommunityToolKit</PackageId>
-		<Title>Wix CommunityToolKit</Title>
+		<PackageId>Wix.CommunityToolkit</PackageId>
+		<Title>Wix CommunityToolkit</Title>
 		<!--作者-->
 		<Authors>wuhailong</Authors>
 		<PackageTags>dotnet-new;templates;contoso</PackageTags>
@@ -26,173 +26,173 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+		<Content Include="templates\**\*"  />
 		<Compile Remove="**\*" />
 		<Compile Remove="templates\HelloWorld\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\bin\Debug\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Dictionary\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Views\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Dictionary\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Views\**" />
-		<Compile Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\obj\Debug\net5.0-windows\Views\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\bin\Debug\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Dictionary\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Views\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Dictionary\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Views\**" />
+		<Compile Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\obj\Debug\net5.0-windows\Views\**" />
 		<Content Remove="templates\HelloWorld\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\bin\Debug\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Dictionary\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Views\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Dictionary\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Views\**" />
-		<Content Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\obj\Debug\net5.0-windows\Views\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\bin\Debug\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Dictionary\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Views\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Dictionary\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Views\**" />
+		<Content Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\obj\Debug\net5.0-windows\Views\**" />
 		<EmbeddedResource Remove="templates\HelloWorld\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\bin\Debug\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Dictionary\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Views\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Dictionary\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Views\**" />
-		<EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\obj\Debug\net5.0-windows\Views\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\bin\Debug\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Dictionary\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Views\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Dictionary\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Views\**" />
+		<EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\obj\Debug\net5.0-windows\Views\**" />
 		<None Remove="templates\HelloWorld\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\bin\Debug\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Dictionary\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Debug\Views\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Dictionary\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\obj\Release\Views\**" />
-		<None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\obj\Debug\net5.0-windows\Views\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\bin\Debug\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Dictionary\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Debug\Views\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Dictionary\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\obj\Release\Views\**" />
+		<None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\obj\Debug\net5.0-windows\Views\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Properties\Resources.resx" />
+	  <EmbeddedResource Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Properties\Resources.resx" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\Bundle.wxs" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\icon\icon.ico" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Bootstrapper\zh-cn\zh-cn.wxl" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\BootstrapperCore.config" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Color.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Glyphicons.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Strings.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\StyleResources.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\packages.config" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\logo.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\page1.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\page2.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\page3.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\page4.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Pictures\page5.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\CancelPage.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\FinishPage.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InformationsWindow.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InstallPage.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InstallView.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\ProgressPage.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\CustomBA\Views\UnistallRepairPage.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\imag\BootstrapperWPF.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\imag\VisualStudio2015打包方式.png" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\CommonServiceLocator.1.2\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\CommonServiceLocator.1.2\CommonServiceLocator.1.2.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.pdb" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.XML" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.5.0.0\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.5.0.0\Prism.5.0.0.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.Composition.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.Composition.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.SharedInterfaces.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.SharedInterfaces.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Composition.5.0.0\Prism.Composition.5.0.0.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Interactivity.5.0.0\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Interactivity.5.0.0\lib\NET45\Microsoft.Practices.Prism.Interactivity.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Interactivity.5.0.0\lib\NET45\Microsoft.Practices.Prism.Interactivity.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Interactivity.5.0.0\Prism.Interactivity.5.0.0.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.Desktop.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.SharedInterfaces.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.SharedInterfaces.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.Store.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.Phone.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.SharedInterfaces.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.SharedInterfaces.xml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.Mvvm.1.0.0\Prism.Mvvm.1.0.0.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.PubSubEvents.1.0.0\.signature.p7s" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.PubSubEvents.1.0.0\lib\portable-sl4+wp7+windows8+net40\Microsoft.Practices.Prism.PubSubEvents.dll" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\packages\Prism.PubSubEvents.1.0.0\Prism.PubSubEvents.1.0.0.nupkg" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\SetupProject\icon\icon.ico" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\SetupProject\Product.wxs" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\SetupProject\zh-cn\zh-cn.wxl" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\App.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Icons\VisualStudioIcon.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\BlueBrushsExtended.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\Controls\VsResizeGrip.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\DarkBrushsExtended.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\Generic.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\LightBrushsExtended.xaml" />
-	  <None Remove="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Views\MainView.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\Bundle.wxs" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\icon\icon.ico" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Bootstrapper\zh-cn\zh-cn.wxl" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\BootstrapperCore.config" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Color.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Glyphicons.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Strings.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\StyleResources.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\packages.config" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\logo.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\page1.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\page2.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\page3.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\page4.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Pictures\page5.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\CancelPage.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\FinishPage.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InformationsWindow.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InstallPage.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InstallView.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\ProgressPage.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\UnistallRepairPage.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\imag\BootstrapperWPF.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\imag\VisualStudio2015打包方式.png" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\CommonServiceLocator.1.2\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\CommonServiceLocator.1.2\CommonServiceLocator.1.2.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.pdb" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.XML" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.5.0.0\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.5.0.0\Prism.5.0.0.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.Composition.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.Composition.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.SharedInterfaces.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.SharedInterfaces.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Composition.5.0.0\Prism.Composition.5.0.0.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Interactivity.5.0.0\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Interactivity.5.0.0\lib\NET45\Microsoft.Practices.Prism.Interactivity.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Interactivity.5.0.0\lib\NET45\Microsoft.Practices.Prism.Interactivity.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Interactivity.5.0.0\Prism.Interactivity.5.0.0.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.Desktop.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.Mvvm.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.SharedInterfaces.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\net45\Microsoft.Practices.Prism.SharedInterfaces.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.Store.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.Mvvm.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.Phone.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.Mvvm.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.SharedInterfaces.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\lib\windowsphone8\Microsoft.Practices.Prism.SharedInterfaces.xml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.Mvvm.1.0.0\Prism.Mvvm.1.0.0.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.PubSubEvents.1.0.0\.signature.p7s" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.PubSubEvents.1.0.0\lib\portable-sl4+wp7+windows8+net40\Microsoft.Practices.Prism.PubSubEvents.dll" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\packages\Prism.PubSubEvents.1.0.0\Prism.PubSubEvents.1.0.0.nupkg" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\SetupProject\icon\icon.ico" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\SetupProject\Product.wxs" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\SetupProject\zh-cn\zh-cn.wxl" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\App.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Icons\VisualStudioIcon.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\BlueBrushsExtended.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\Controls\VsResizeGrip.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\DarkBrushsExtended.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\Generic.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\LightBrushsExtended.xaml" />
+	  <None Remove="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Views\MainView.xaml" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Color.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Color.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Glyphicons.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Glyphicons.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\Strings.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\Strings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Dictionary\StyleResources.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Dictionary\StyleResources.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\CancelPage.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\CancelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\FinishPage.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\FinishPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InformationsWindow.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InformationsWindow.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InstallPage.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InstallPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\InstallView.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\InstallView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\ProgressPage.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\ProgressPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\CustomBA\Views\UnistallRepairPage.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\CustomBA\Views\UnistallRepairPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\App.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\App.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Icons\VisualStudioIcon.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Icons\VisualStudioIcon.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\BlueBrushsExtended.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\BlueBrushsExtended.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\Controls\VsResizeGrip.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\Controls\VsResizeGrip.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\DarkBrushsExtended.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\DarkBrushsExtended.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\Generic.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\Generic.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Themes\LightBrushsExtended.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Themes\LightBrushsExtended.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
-	  <Content Update="templates\Wix.CommunityToolKit.Template\Wix.CommunityToolKit\Views\MainView.xaml">
+	  <Content Update="templates\Wix.CommunityToolkit.Template\setup\Wix.CommunityToolkit\Views\MainView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </Content>
 	</ItemGroup>
